@@ -65,3 +65,8 @@ fatto cio stabilisco che list item e uguale a content cosi che vengano mostrti i
 infine aggiugo listitem all'iterno del suo contenitore in quetso caso ul
 
 ul.append()
+
+
+BONUS 2 
+
+per completare il bonus 2 bastera creare una condizionale che aggiungera loe nuove calssi di stile agli elementi della lista 
