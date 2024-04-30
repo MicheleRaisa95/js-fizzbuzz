@@ -15,12 +15,12 @@ dunaque avremo delle operazioni come le seguenti:
 
 noi possiamo far capire al nostro applicativo che un numero e multiplo di un altro numere se come resto della divisione ha 0, la nostra operazione avra un aspetto simile a n % 3 === 0 e n % 5 === 0.
 
-Dal momento che noi vogliamo che sia l'applicativo a fare il lavore sporco ovvero scrivere i numeri da 1 a 100 e a stabilire se il numero sia un multiplo usero i cicli con keyword "for", al quale assegneremo un contatore che avra valore iniziale 1 (non ssegneremo 0 come valore iniziale perche altrimenti i numeri stampati in console si fermerebbero a 99 e noi vogliamo che i numeri siano da 1 a 100!!), poi impostiamo un una condizione da verificare per eseguire il codice <100, infine, si incrementa il valore del contatore che dovra essere testato al giro successivo.
+Dal momento che noi vogliamo che sia l'applicativo a fare il lavore sporco ovvero scrivere i numeri da 1 a 100 e a stabilire se il numero sia un multiplo usero i cicli con keyword "for", al quale assegneremo un contatore che avra valore iniziale 1 (non ssegneremo 0 come valore iniziale perche altrimenti i numeri stampati in console si fermerebbero a 99 e noi vogliamo che i numeri siano da 1 a 100!!), poi impostiamo un una condizione da verificare per eseguire il codice <=100, infine, si incrementa il valore del contatore che dovra essere testato al giro successivo.
 
 recapitoalndo:
 
 1. Creo una variabile che chiamo i e assegni il valore di 1 i = 1
-2. stabilisco la condizione i < 100
+2. stabilisco la condizione i <= 100
 3. incremento i++
 
 dunque scriveremo for (let i = 1; i < 100; i++)
@@ -34,7 +34,7 @@ else if (i % 5 === 0) stabilisce se un numero e multiplo di 5
 console.log ('Buzz') mostrera in console buzz se un numero e multiplo di 5
 
 else if (i % 3 === 0 && i % 5 === 0) stabilisce se un numero e multiplo sia di 3 che di 5
-console.log ('FizzBuzz') se un numero e multiplo sia di3 che di 5
-
+console.log ('FizzBuzz') se un numero e multiplo sia di3 che di 5 
+[IMPORTANTE QUESTA DEVE ESSERE LA PRIMA PARTE DELLA CONDIZIONALE ]
 else 
 console.log (i) stampera in console gli altri numeri 
