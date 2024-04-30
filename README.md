@@ -38,3 +38,30 @@ console.log ('FizzBuzz') se un numero e multiplo sia di3 che di 5
 [IMPORTANTE QUESTA DEVE ESSERE LA PRIMA PARTE DELLA CONDIZIONALE ]
 else 
 console.log (i) stampera in console gli altri numeri 
+
+
+BONUS 1
+
+per colpletare il bonus 1 preocedero in questo modo crero nella pagina html un tag ul che fungera da contenitore.
+in questo esercizio avro soltanto un unica lista e quindi posso usare ul come costante aggiungendo il querySelector dunque avremo una formula del genere: 
+
+const ul = document.querySelector('ul.list');
+
+in questo mood abbiamo selezionato la nostra lista non orsina per le modifiche da apportare
+
+dopo di che devo iserire la lista all'interno del body tramite 
+
+document.body.append()
+
+all'interno del ciclo for 
+deve assegnare a content la costante i cosi che possa stampare nel dom i numeri e parole genrate
+
+devi creare la costante list item e creare nel documento gli li
+
+const listItem = document.createElement(')
+
+fatto cio stabilisco che list item e uguale a content cosi che vengano mostrti i numerie  etesti come elementi di una lista 
+
+infine aggiugo listitem all'iterno del suo contenitore in quetso caso ul
+
+ul.append()
